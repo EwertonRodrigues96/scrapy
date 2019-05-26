@@ -1,0 +1,16 @@
+curl 'https://www.ifood.com.br/api/restaurants/ede9e441-3a3e-4447-a32a-b225a70e626e'  --compressed
+
+esse link também trás os endereços
+curl 'https://www.ifood.com.br/api/restaurants/996ec097-20ab-4546-b649-d3a42cbe0047'  --compressed
+
+
+
+curl 'https://marketplace.ifood.com.br/v1/merchants?latitude=-22.9035&longitude=-43.2096&zip_code=22041-080&channel=IFOOD&size=100'  --compressed
+
+
+essee link trá os endereços também
+curl 'https://marketplace.ifood.com.br/v1/merchants/b2513092-7c87-444a-baa3-db6fcb8e6e80/extra' --compressed
+
+
+consigo tipo de pagamento
+curl 'https://marketplace.ifood.com.br/v1/merchants/b2513092-7c87-444a-baa3-db6fcb8e6e80/payment-types'  --compressed
